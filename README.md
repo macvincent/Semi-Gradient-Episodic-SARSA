@@ -1,6 +1,6 @@
 # Semi-Gradient Episodic SARSA
 
-Here, we use the Semi-Gradient Episodic SARSA Reinforcement Learning algorithm to train an agent to complete OpenAI Gym's implementation of the classic Mountain Car control task.
+Here, we use the Semi-Gradient Episodic SARSA reinforcement learning algorithm to train an agent to complete OpenAI Gym's implementation of the classic [mountain car control task](https://en.wikipedia.org/wiki/Mountain_car_problem). It is part of my submission to the Wade Scholarship Program. There I explain why, in ligth of the [reward hypothesis](http://incompleteideas.net/rlai.cs.ualberta.ca/RLAI/rewardhypothesis.html), reinforcement learning could potentially lead us to a generalized artificial intelligence.
 
 ## Running the tracker
 1. Clone the project repository
