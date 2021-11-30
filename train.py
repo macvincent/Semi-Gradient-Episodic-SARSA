@@ -120,7 +120,7 @@ def end_episode(state, action, reward):
 def take_step(next_observation, state, action, reward):
     '''
         Performs update for each step an agent takes.
-'''
+    '''
     next_action, next_state = epsilon_greedy_action_selection(next_observation)
     weights[action] += step_size * (reward + (gamma * action_value(next_state, next_action)) - action_value(state, action)) * state
 
